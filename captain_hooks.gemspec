@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'captain_hook'
+  s.name        = 'captain_hooks'
   s.version     = '0.0.1'
   s.summary     = "add redmine-style view hooks to your rails app"
   s.description = "allow to extend existing views within gems or external modules by added view hooks in your templates."
