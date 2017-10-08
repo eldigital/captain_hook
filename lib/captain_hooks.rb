@@ -1,4 +1,4 @@
-module CaptainHook
+module CaptainHooks
   
   cattr_accessor :view_hooks
   
@@ -9,7 +9,7 @@ module CaptainHook
     self.view_hooks[hook_name.to_sym] << to_be_rendered_partial
   end
   
-  require "captain_hook/engine"
+  require "captain_hooks/engine"
   
 end
 
